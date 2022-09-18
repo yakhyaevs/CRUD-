@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  width: 400px;
+  height: 500px;
+  border-radius: 10px;
+  padding: 50px;
+}
+h3 {
+  margin-bottom: 20px;
+  color: rgba(0, 0, 0, 0.908);
+}
+.parentInput {
+  display: grid;
+  grid-gap: 20px;
+}
+.childInput {
+  width: 100%;
+  height: 40px;
+  border-radius: 8px;
+}
+.checkbox {
+  display: flex;
+  margin-top: 20px;
+}
+button {
+  margin-top: 20px;
+  background-color: rgb(118, 134, 237);
+  /* border-color: aliceblue; */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 2s;
+  color: black;
+}
+
+.btn {
+  width: 100%;
+  height: 35px;
+  font-size: 20px;
+  color: aliceblue;
+}
+.user {
+  display: flex;
+  gap: 10px;
+  padding-top: 20px;
+}
+a {
+  text-decoration: underline;
+  cursor: pointer;
+}
+/* .password{
+    text-decoration: underline;
+    cursor: pointer;
+} */
