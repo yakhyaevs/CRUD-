@@ -6,7 +6,7 @@ export default class Login extends React.Component {
     return (
       <div className="input">
         <div className="box">
-          <h3>Ro'yhatdan o'tish</h3>
+          <h3>Register</h3>
           <div className="parentInput">
             <input
               className="childInput"
@@ -23,11 +23,11 @@ export default class Login extends React.Component {
             <input type="checkbox"  />
             <p>Remember me?</p>
          </div> */}
-          <button className="btn"> Kirish</button>
+          <button className="btn">Login</button>
           {/* <p className='password'> Forgot password?</p> */}
           <div className="user">
-            <p>Ro'yhatdan o'tganmisiz? </p>{" "}
-            <a onClick={this.props.onClick}> Kirish</a>
+            <p>Already have an account </p>{" "}
+            <a onClick={this.props.onClick}> Login</a>
           </div>
         </div>
       </div>
