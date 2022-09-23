@@ -7,28 +7,24 @@ export default class Login extends React.Component {
     return (
       <div className="input">
         <div className="box">
-          <h3>Kirish</h3>
+          <h3>Login | Register</h3>
           <div className="parentInput">
-            <input
-              className="childInput"
-              type="text"
-              placeholder="Email ni kiriting"
-            />
+            <input className="childInput" type="text" placeholder="Email" />
             <input
               className="childInput"
               type="password"
-              placeholder="Parolni kiriting"
+              placeholder="Password"
             />
           </div>
           <div className="checkbox">
             <input type="checkbox" />
-            <p>Eslab qolinsinmi?</p>
+            <p>Remember?</p>
           </div>
 
-          <button className="btn"> Login</button>
-          <p className="password"> Parolni unutdingizmi?</p>
+          <button className="btn">Login</button>
+          <p className="password"> Forger password?</p>
           <p className="accaunt">
-            Akkaunt ochish <a onClick={this.props.onClick}>Ro'yhatdan o'tish</a>
+            Create account <a onClick={this.props.onClick}>Register</a>
           </p>
         </div>
       </div>
